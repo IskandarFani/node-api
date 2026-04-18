@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello from Node 🚀');
+  res.send('Hello from LOCAL PC 🚀');
 });
 
 app.listen(3000, () => {
